@@ -1,0 +1,52 @@
+body {
+    padding: 50px;
+    background-image: url(../image/pic2.jpg);
+    background-size: cover;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    a{
+        color: white;
+        font-size: 20px;
+    }
+    .form-tt {
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    background: -webkit-linear-gradient(top,#fa8072,#f08080);
+    
+    padding: 55px 55px 37px;
+    text-align: center;
+    }
+    .form-tt h2 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2; 
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    }
+    
+    .form-tt input[type=text], .form-tt input[type=password] {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    display: block;
+    width: calc(100% - 10px);
+    height: 45px;
+    background: 0 0;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    }
+    .-tt input[type=text]::focus, .form-tt input[type=password]::focus {
+    color: red;
+    }form
+    
+
